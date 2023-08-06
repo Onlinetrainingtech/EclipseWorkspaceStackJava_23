@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Sample {
+
+	
+	int pid;
+	String pname;
+    Scanner sc=new Scanner(System.in);
+	void input()
+	{
+		System.out.println("Enter the pid value is::");
+	    pid=sc.nextInt();
+	    System.out.println("Enter the pname value is::");
+	    pname=sc.next();
+	}
+	void display()
+	{
+		
+	}
+	public static void main(String[] args) {
+		
+
+	}
+
+}
